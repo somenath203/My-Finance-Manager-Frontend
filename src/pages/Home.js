@@ -43,8 +43,6 @@ const Home = () => {
 
     } catch (error) {
 
-      message.error(error?.response?.data?.message);
-
       dispatch(hideLoading());
 
     }
