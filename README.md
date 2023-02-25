@@ -2,7 +2,7 @@
 
 ### Introduction
 
-The name of my project is "My Personal Finance" where a user after authenticating himself/herself will be able to add savings, expenditures, and investments and on the basis of that, the user will get to know how he/she uses his/her money.
+The name of my project is "My Personal Finance" where a user after authenticating himself/herself will be able to add savings, expenditures, and investments and on the basis of that, the user will get to know how he/she should use his/her money.
 
 ### Tech Stack
 MERN(MongoDB Express React Node).
