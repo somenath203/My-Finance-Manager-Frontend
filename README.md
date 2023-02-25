@@ -1,4 +1,4 @@
-# My Personal Manager
+# My Finance Manager
 
 ### Introduction
 
