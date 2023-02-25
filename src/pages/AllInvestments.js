@@ -2,6 +2,7 @@ import { message } from 'antd';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 import { useDispatch } from "react-redux";
+import { v4 as uuidv4 } from 'uuid';
 
 import DefaultLayout from './../components/DefaultLayout';
 import { showLoading, hideLoading } from './../redux/alertSlice';
@@ -61,7 +62,7 @@ const AllInvestments = () => {
                     <div className='w-full grid grid-cols-1 lg:grid-cols-3 gap-12'>
 
                         {allInvestments.map((investment) => (
-                            <div className='flex items-center justify-center flex-col gap-6 px-24 py-20 bg-gradient-to-bl from-violet-400 to-violet-500 rounded-lg shadow-2xl text-white mb-6'>
+                            <div className='flex items-center justify-center flex-col gap-6 px-24 py-20 bg-gradient-to-bl from-violet-400 to-violet-500 rounded-lg shadow-2xl text-white mb-6' key={uuidv4()}>
 
                                 <p className='text-lg lg:text-xl text-center font-sans font-semibold tracking-wider'>Expenditure Amount: Rs. {investment.investmentAmount ? investment.investmentAmount : 0}</p>
 
