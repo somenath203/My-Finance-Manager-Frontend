@@ -136,7 +136,7 @@ const Home = () => {
 
           </div>
 
-          {savingsTotal < expenditureTotal || savingsTotal < investmentTotal || savingsTotal < (investmentTotal + expenditureTotal) ? <div className='flex items-center justify-center flex-col text-center gap-5 lg:flex-row lg:gap-3 text-2xl mt-20 p-6 bg-yellow-100 rounded-xl shadow-xl font-semibold tracking-wider'>
+          {savingsTotal < expenditureTotal || savingsTotal < investmentTotal || savingsTotal < (investmentTotal + expenditureTotal) ? <div className='flex items-center justify-center flex-col text-center gap-5 lg:flex-row lg:gap-3 text-2xl mt-20 mb-10 p-6 bg-yellow-100 rounded-xl shadow-xl font-semibold tracking-wider'>
             <i className="ri-alarm-warning-line text-5xl"></i> <span>WARNING: Your savings are less than your exoenditures and investments. Spent your money wisely</span>
           </div> : <div className='flex items-center justify-center gap-5 flex-col text-center lg:flex-row lg:gap-3 text-2xl mt-20 p-6 bg-green-100 rounded-xl shadow-xl font-semibold tracking-wider'>
           <i className="ri-magic-line text-5xl"></i> <span>GREAT!! Your savings are greater than your expenditure and investments.</span>
