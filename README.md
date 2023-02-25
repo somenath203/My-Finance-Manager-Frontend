@@ -11,5 +11,5 @@ MERN(MongoDB Express React Node).
 ### Technologies and frameworks used
 ReactJS, ExpressJS, MongoDB, antd, tailwindCSS.
 
-### Deployed link
-https://my-finance-manager-frontend.vercel.app/
+### Backend Repo of the code
+https://github.com/somenath203/My-Finance-Manager-Backend
