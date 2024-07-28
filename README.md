@@ -1,6 +1,6 @@
 # My Finance Manager
 
-## Demo video of the whole application
+### Demo video of the whole application
 
 https://www.youtube.com/watch?v=hACmHkPLtU4
 
